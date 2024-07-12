@@ -1,0 +1,5 @@
+Question 1:
+Inner variable is declared inside the while loop so that, it can be recreated and reinitialized to 1 each time the outer loop
+executes. If the variable were to be declared before the outer loop, it will never reset to 1 or we'd have to do it with an 
+assignment variable. In the smallest possible scope, it makes more sense to declare the inner variable inside the outer variabble
+while loop
